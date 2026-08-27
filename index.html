@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Amit Dental Clinic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="canvas-wrap"><canvas id="bg"></canvas></div>
+
+  <nav class="nav">
+    <div class="logo"><span>✦</span> Dr. Amit <b>Dental</b></div>
+    <div class="links">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </div>
+    <a class="nav-btn" href="#appointment">Book Appointment</a>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <div class="pill">✦ Advanced • Gentle • Trusted Care</div>
+        <h1>Your smile.<br><span>Our priority.</span></h1>
+        <p>Modern dental care with advanced technology, a comfortable environment, and a personal touch.</p>
+        <div class="actions">
+          <a class="btn primary" href="#appointment">Book Appointment <span>↗</span></a>
+          <a class="btn secondary" href="#services">Explore Services</a>
+        </div>
+        <div class="trust">
+          <div><strong>10+</strong><small>Years Experience</small></div>
+          <div><strong>5K+</strong><small>Happy Patients</small></div>
+          <div><strong>4.9★</strong><small>Patient Rating</small></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="tooth">
+          <div class="tooth-inner"></div>
+          <div class="shine"></div>
+        </div>
+        <div class="float-card card1">🦷 <span>Gentle Care<br><b>100% Comfort</b></span></div>
+        <div class="float-card card2">✨ <span>Modern Technology<br><b>Precision Treatment</b></span></div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-head"><div><span class="eyebrow">OUR SERVICES</span><h2>Complete dental care,<br><span>beautifully delivered.</span></h2></div><p>From routine check-ups to advanced treatments, everything you need for a healthy, confident smile.</p></div>
+      <div class="service-grid">
+        <article><div class="icon">🦷</div><h3>General Dentistry</h3><p>Check-ups, cleaning, fillings and preventive dental care.</p><a href="#appointment">Learn more →</a></article>
+        <article><div class="icon">✨</div><h3>Teeth Whitening</h3><p>Professional whitening designed for a brighter, natural-looking smile.</p><a href="#appointment">Learn more →</a></article>
+        <article><div class="icon">😁</div><h3>Braces & Aligners</h3><p>Modern solutions to help improve tooth alignment and your smile.</p><a href="#appointment">Learn more →</a></article>
+        <article><div class="icon">💎</div><h3>Dental Implants</h3><p>Reliable tooth-replacement options planned around your needs.</p><a href="#appointment">Learn more →</a></article>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="about-card">
+        <div class="round-mark">✦</div>
+        <span class="eyebrow">WHY CHOOSE US</span>
+        <h2>A premium dental experience without the stress.</h2>
+        <p>We combine modern equipment, careful treatment planning and a friendly approach to make every visit easier.</p>
+        <div class="features"><span>✓ Digital Diagnosis</span><span>✓ Sterile Environment</span><span>✓ Patient-first Care</span><span>✓ Modern Equipment</span></div>
+      </div>
+      <div class="quote-card"><div class="quote">“</div><p>Healthy teeth are not just about a beautiful smile — they are part of a healthier, happier life.</p><div class="doctor"><div class="avatar">DA</div><div><b>Dr. Amit</b><small>Dental Surgeon</small></div></div></div>
+    </section>
+
+    <section id="appointment" class="appointment section">
+      <div><span class="eyebrow">APPOINTMENT</span><h2>Ready for your<br><span>best smile?</span></h2><p>Send us your details and our clinic team can contact you to confirm a suitable appointment time.</p>
+      <form id="appointmentForm">
+        <input required name="name" placeholder="Your name">
+        <input required name="phone" placeholder="Phone number" type="tel">
+        <select name="service"><option>General Check-up</option><option>Teeth Cleaning</option><option>Teeth Whitening</option><option>Braces / Aligners</option><option>Dental Implant</option></select>
+        <button class="btn primary" type="submit">Request Appointment →</button>
+      </form>
+      <p id="formMsg" class="form-msg"></p></div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div><span class="eyebrow">CONTACT</span><h2>Visit the clinic.</h2></div>
+      <div class="contact-grid">
+        <div><b>📍 Address</b><p>Your Clinic Address, Rajasthan</p></div>
+        <div><b>📞 Phone</b><p>+91 XXXXX XXXXX</p></div>
+        <div><b>🕒 Hours</b><p>Mon–Sat · 9:00 AM–8:00 PM</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Dr. Amit Dental Clinic · Crafted for a confident smile.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
